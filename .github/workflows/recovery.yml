@@ -16,9 +16,9 @@ on:
 env:
   MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git
   MANIFEST_BRANCH: android-9.0
-  DEVICE: pokerpatas
+  DEVICE: pokerp
   DT_LINK: https://github.com/KatoTempest/motorola_pokerpatas.git -b wip-2
-  DT_PATH: device/motorola/pokerpatas
+  DT_PATH: device/motorola/pokerp
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
