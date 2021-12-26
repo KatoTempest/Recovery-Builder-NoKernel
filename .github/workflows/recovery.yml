@@ -17,9 +17,9 @@ env:
   MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git
   MANIFEST_BRANCH: android-9.0
   DEVICE: tissot
-  DT_LINK: https://github.com/KatoTempest/recovery_device_xiaomi_tissot.git
-  DT_PATH: device/xiaomi/tissot
-  TARGET: bootimage
+  DT_LINK: https://github.com/KatoTempest/motorola_pokerpatas.git -b wip-2
+  DT_PATH: device/motorola/pokerpatas
+  TARGET: recoveryimage
   TZ: Asia/Kolkata
 
 jobs:
