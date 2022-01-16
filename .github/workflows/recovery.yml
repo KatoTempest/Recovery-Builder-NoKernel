@@ -14,10 +14,10 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git
-  MANIFEST_BRANCH: android-9.0
+  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
+  MANIFEST_BRANCH: twrp-9.0
   DEVICE: pokerp
-  DT_LINK: https://github.com/KatoTempest/motorola_pokerpatas.git -b wip-2
+  DT_LINK: https://github.com/KatoTempest/android_device_motorola_pokerp -b twrp
   DT_PATH: device/motorola/pokerp
   TARGET: recoveryimage
   TZ: Asia/Kolkata
