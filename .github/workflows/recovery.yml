@@ -17,7 +17,7 @@ env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
   MANIFEST_BRANCH: twrp-9.0
   DEVICE: pokerp
-  DT_LINK: https://github.com/KatoTempest/android_device_motorola_pokerp -b twrp
+  DT_LINK: https://github.com/KatoTempest/motorola_pokerp -b twrp
   DT_PATH: device/motorola/pokerp
   TARGET: recoveryimage
   TZ: Asia/Kolkata
@@ -66,4 +66,4 @@ jobs:
        - uses: actions/upload-artifact@v2
          with:
           name: recoveryimage
-          path: work/out/target/product/*/*.img
+          path: work/out/target/product/*/recovery.img
