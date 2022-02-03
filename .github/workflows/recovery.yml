@@ -16,9 +16,9 @@ on:
 env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
   MANIFEST_BRANCH: twrp-9.0
-  DEVICE: pokerp
-  DT_LINK: https://github.com/KatoTempest/motorola_pokerp -b twrp
-  DT_PATH: device/motorola/pokerp
+  DEVICE: tissot
+  DT_LINK: https://github.com/KatoTempest/twrp_device_xiaomi_tissot.git
+  DT_PATH: device/xiaomi/tissot
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
